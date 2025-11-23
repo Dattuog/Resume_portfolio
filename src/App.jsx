@@ -217,8 +217,8 @@ export default function App() {
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-slate-950/80 backdrop-blur-md border-b border-slate-800 z-40">
         <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="font-bold text-xl text-white tracking-tight">
-            RD<span className="text-emerald-500">.</span>
+          <div className="font-bold text-xl text-white tracking-tight flex items-center gap-2">
+            <img src="/logo.png" alt="RD Logo" className="h-8 w-auto" />
           </div>
           <div className="hidden sm:flex gap-6 text-sm font-medium text-slate-400">
             <a href="#about" className="hover:text-white transition-colors">About</a>
