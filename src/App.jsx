@@ -318,7 +318,53 @@ export default function App() {
                 </div>
               </motion.div>
             </div>
+
           </motion.div>
+        </section>
+
+        {/* OpenSesame Vision Section */}
+        <section id="vision" className="mb-32">
+          <SectionHeading icon={Target} color="emerald">Vision & Impact</SectionHeading>
+          <div className="grid md:grid-cols-3 gap-6">
+            <motion.div
+              whileHover={{ y: -5 }}
+              className="bg-slate-900/50 p-6 rounded-xl border border-slate-800 hover:border-emerald-500/50 transition-colors"
+            >
+              <div className="p-3 bg-emerald-500/10 w-fit rounded-lg text-emerald-400 mb-4">
+                <Rocket size={24} />
+              </div>
+              <h3 className="text-lg font-bold text-white mb-3">Why OpenSesame?</h3>
+              <p className="text-slate-400 text-sm leading-relaxed">
+                My journey from Civil Engineering to Software Architecture is defined by <b>building resilient systems</b>. OpenSesame's mission aligns with my goal to engineer scalable, intelligent infrastructure. I see this as the perfect environment to apply my "builder's mindset"—architecting solutions that stand the test of time.
+              </p>
+            </motion.div>
+
+            <motion.div
+              whileHover={{ y: -5 }}
+              className="bg-slate-900/50 p-6 rounded-xl border border-slate-800 hover:border-blue-500/50 transition-colors"
+            >
+              <div className="p-3 bg-blue-500/10 w-fit rounded-lg text-blue-400 mb-4">
+                <Layers size={24} />
+              </div>
+              <h3 className="text-lg font-bold text-white mb-3">My Contribution</h3>
+              <p className="text-slate-400 text-sm leading-relaxed">
+                I bring a blend of <b>algorithmic rigor</b> and <b>practical AI innovation</b>. My competitive programming background (LeetCode Knight) ensures efficient code, while my experience with RAG and Voice AI agents allows me to bridge the gap between theoretical AI and production-ready features.
+              </p>
+            </motion.div>
+
+            <motion.div
+              whileHover={{ y: -5 }}
+              className="bg-slate-900/50 p-6 rounded-xl border border-slate-800 hover:border-purple-500/50 transition-colors"
+            >
+              <div className="p-3 bg-purple-500/10 w-fit rounded-lg text-purple-400 mb-4">
+                <Lightbulb size={24} />
+              </div>
+              <h3 className="text-lg font-bold text-white mb-3">Future of AI</h3>
+              <p className="text-slate-400 text-sm leading-relaxed">
+                I believe AI will evolve from a tool to a <b>dynamic co-pilot</b> that personalizes growth. I'm excited to build systems where AI acts as an intelligent tutor, making high-quality education and professional training accessible, engaging, and hyper-personalized for every learner.
+              </p>
+            </motion.div>
+          </div>
         </section>
 
         {/* Stats Grid */}
@@ -470,6 +516,6 @@ export default function App() {
         </footer>
 
       </main>
-    </div>
+    </div >
   );
 }
